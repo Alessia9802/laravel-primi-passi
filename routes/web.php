@@ -21,3 +21,30 @@ Route::get('/', function () {
     ];
     return view('home', $data);
 }) -> name('home');
+
+Route::get('/about', function () {
+    $data = [
+        "about" => 'Section About',
+        "Year" => '2021'
+        
+    ];
+    return view('about', $data);
+}) -> name('about');
+
+Route::get('/services', function () {
+    $data = [
+        "services" => 'Section Services',
+        "Year" => '2021'
+        
+    ];
+    return view('services', $data);
+}) -> name('services');
+
+Route::get('/contacts', function () {
+    $data = [
+        "contacts" => 'Section contacts',
+        "Year" => '2021'
+        
+    ];
+    return view('contacts', $data);
+}) -> name('contacts');

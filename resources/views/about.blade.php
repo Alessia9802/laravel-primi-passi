@@ -64,21 +64,16 @@
         </style>
     </head>
     <body>
-        <nav>
-            <div class="links">
-                 <a href="/about">About</a>
-                 <a href="/services">Services</a>
-                 <a href="/contacts">Contacts</a>
-             </div>
-        </nav>
-    <div class="flex-center position-ref full-height">
+                <div class="flex-center position-ref full-height">
              
-     <div class="content">
-                 <div class="title m-b-md">
-                    Hello World
+
+            <div class="content">
+                
+                <div class="title m-b-md">
+                    About
                 </div>
                 <div class=" m-b-md">
-                    {{$copyright}} - {{$Year}}
+                    {{$about}} - {{$Year}}
                 </div>
                  
                      
