@@ -14,5 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
-});
+    $data = [
+        "copyright" => 'Made by ©Boolean',
+        "Year" => '2021'
+        
+    ];
+    return view('home', $data);
+}) -> name('home');
